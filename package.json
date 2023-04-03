@@ -1,6 +1,6 @@
 {
   "name": "Haruka-Md",
-  "version": "10.0.5",
+  "version": "10.0.6",
   "description": "whatsapp tob with multi device.",
   "main": "haruka.js",
   "directories": {
@@ -18,7 +18,7 @@
   "author": "ZeeoneOfc",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys" : "npm:@ferdiz-afk/baileys@5.0.5",
+    "@adiwajshing/baileys" : "npm:baileys-md@5.0.5",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^2.0.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",

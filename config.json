@@ -1,0 +1,31 @@
+{
+    "ownerNumber": ["6281230234595@s.whatsapp.net"],
+    "ownerName": "Najib Zulfan",
+    "instagram" : "https://www.instagram.com/zlfnxn/",
+    "gcwa" : "",
+    "prefix": "!",
+    "botName": "Vagabot",
+    "footer": "Sengaja tersesat tuk rindu pulang",
+    "sessionName": "session",
+    "fotoDonasi": "",
+    "pathimg": "./miyamoto.jpg",
+    "BotKey": "PLIfBaU6dBsEDNb",
+    "OpenAIKey": "",
+    "audio_di_bagian_menu": "./musik.mp3",
+    "auto_welcomeMsg": true,
+    "auto_leaveMsg": true, 
+    "antiViewOnce": false,
+    "grupOnly": false,
+    "antiDelete": false,
+    "autobio": false,
+    "anticall": true,
+    "autorespond": false,
+    "autoblok212": true,
+    "autoread": true,
+    "gamewaktu": 90,
+    "limitCount": 25,
+    "gcount": {
+        "prem": 1000,
+        "user": 15
+    }
+}

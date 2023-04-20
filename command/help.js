@@ -34,7 +34,7 @@ ${mundur}
  • Status : ${isCreator ? 'Owner' : isPremium ? 'Premium' : 'Free'}
  • Limit : ${isCreator ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
  • Limit Game : ${isCreator ? 'Unlimited' : cekGLimit(sender, gcount, glimit)}
- • Balance : ${toCommas(getBalance(sender, balance))}
+ • Balance : ${getBalance(sender, balance)}
  • Role : ${role}
  
  
@@ -65,6 +65,7 @@ ${mundur}
  • ${prefix}emojimix
  • ${prefix}ai
  • ${prefix}aiimg
+ • ${prefix}aidraw
  • ${prefix}chatgpt
  • ${prefix}nuliskiri
  • ${prefix}nuliskanan
@@ -150,6 +151,7 @@ ${mundur}
  • ${prefix}gitclone${petik}
 
 *GROUP MENU*${petik}
+ • ${prefix}autoaigc
  • ${prefix}afk
  • ${prefix}welcome
  • ${prefix}left
@@ -186,6 +188,16 @@ ${mundur}
  • ${prefix}checksewa${petik}
 
 *GAME MENU*${petik}
+ • ${prefix}tebakgambar
+ • ${prefix}tebakkata
+ • ${prefix}tebakbendera
+ • ${prefix}tebakkalimat
+ • ${prefix}tebaksiapa
+ • ${prefix}tebakkimia
+ • ${prefix}tebaklirik
+ • ${prefix}tebaktebakan
+ • ${prefix}tekateki
+ • ${prefix}susunkata
  • ${prefix}tictactoe
  • ${prefix}delttt
  • ${prefix}casino
@@ -232,6 +244,7 @@ ${mundur}
  • ${prefix}delcmd${petik}
 
 *OWNERS MENU*${petik}
+ • ${prefix}autoaipc
  • ${prefix}autoread
  • ${prefix}autobio
  • ${prefix}antidelete
@@ -279,6 +292,63 @@ ${mundur}
  • ${prefix}santuy
  • ${prefix}ukhty
  • ${prefix}syifa${petik}
+
+*NSFW MENU*${petik}
+ • ${prefix}baka
+ • ${prefix}smug
+ • ${prefix}neko_sfw
+ • ${prefix}hentai_gif
+ • ${prefix}spank
+ • ${prefix}blowjob
+ • ${prefix}cumarts
+ • ${prefix}eroyuri
+ • ${prefix}eroneko
+ • ${prefix}erokemonomimi
+ • ${prefix}erokitsune
+ • ${prefix}ero
+ • ${prefix}feet
+ • ${prefix}erofeet
+ • ${prefix}feetgif
+ • ${prefix}femdom
+ • ${prefix}futanari
+ • ${prefix}hentai
+ • ${prefix}holoero
+ • ${prefix}holo
+ • ${prefix}keta
+ • ${prefix}kitsune
+ • ${prefix}kemonomimi
+ • ${prefix}pussyart
+ • ${prefix}pussywankgif
+ • ${prefix}girl_solo
+ • ${prefix}girl_solo_gif
+ • ${prefix}tits
+ • ${prefix}trap
+ • ${prefix}yuri
+ • ${prefix}avatar2
+ • ${prefix}anal
+ • ${prefix}bj
+ • ${prefix}boobs
+ • ${prefix}classic
+ • ${prefix}cumsluts
+ • ${prefix}kuni
+ • ${prefix}lesbian
+ • ${prefix}neko
+ • ${prefix}neko_gif
+ • ${prefix}ahegao
+ • ${prefix}bdsm
+ • ${prefix}cuckold
+ • ${prefix}cum
+ • ${prefix}foot
+ • ${prefix}gangbang
+ • ${prefix}glasses
+ • ${prefix}jahy
+ • ${prefix}masturbation
+ • ${prefix}nsfw_neko
+ • ${prefix}orgy
+ • ${prefix}panties
+ • ${prefix}tentacles
+ • ${prefix}thighs
+ • ${prefix}zettai${petik}
 
 
 *TEXTPRO MENU*${petik}

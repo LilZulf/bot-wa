@@ -601,6 +601,52 @@ return buffer
         }
         haruka.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
+haruka.send1ButMes = (jid, text = '', footer = '', butId = '', dispText = '', quoted, ments) => {
+      let but = [{
+         buttonId: butId,
+         buttonText: {
+            displayText: dispText
+         },
+         type: 1
+      }]
+      let butMes = {
+         text: text,
+         buttons: but,
+         footer: footer,
+         mentions: ments ? ments : []
+      }
+      haruka.sendMessage(jid, butMes, {
+         quoted: quoted
+      })
+   }
+
+  haruka.send2ButMes = (jid, text = '', footer = '', butId = '', dispText = '', butId2 = '', dispText2 = '', quoted, ments) => {
+      let but2 = [{
+            buttonId: butId,
+            buttonText: {
+               displayText: dispText
+            },
+            type: 1
+         },
+         {
+            buttonId: butId2,
+            buttonText: {
+               displayText: dispText2
+            },
+            type: 1
+         }
+      ]
+      let butMes2 = {
+         text: text,
+         buttons: but2,
+         footer: footer,
+         mentions: ments ? ments : []
+      }
+      haruka.sendMessage(jid, butMes2, {
+         quoted: quoted
+      })
+   }
+
 	haruka.sendText = (jid, text, quoted = '', options) => haruka.sendMessage(jid, { text: text, ...options }, { quoted, ...options })
 
     haruka.cMod = (jid, copy, text = '', sender = haruka.user.id, options = {}) => {

@@ -9,7 +9,7 @@
     "fotoDonasi": "",
     "pathimg": "./miyamoto.jpg",
     "BotKey": "PLIfBaU6dBsEDNb",
-    "OpenAIKey": "",
+    "OpenAIKey": "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",
     "audio_di_bagian_menu": "./musik.mp3",
     "auto_welcomeMsg": true,
     "auto_leaveMsg": true, 

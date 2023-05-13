@@ -55,10 +55,11 @@ ${mundur}
 
 *CONVERTER/TOOLS*${petik} 
  • ${prefix}sticker
+ • ${prefix}qc
+ • ${prefix}xquote
  • ${prefix}stickerwm
  • ${prefix}smeme
  • ${prefix}toimg
- • ${prefix}tovideo
  • ${prefix}tomp3
  • ${prefix}ttp
  • ${prefix}attp

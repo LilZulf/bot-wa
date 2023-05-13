@@ -131,7 +131,7 @@ function uncache(module = '.') {
     
  	haruka.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect, qr} = update	    
-        if (qr){
+        /*if (qr){
           app.use(async (req, res) => {
         res.setHeader('content-type', 'image/png')
         res.end(await toBuffer(qr))
@@ -140,7 +140,7 @@ app.use(express.static(path.join(__dirname, 'views')))
   server.listen(PORT, () => {
         console.log('App listened on port', PORT)
   })
-        }
+        }*/
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output.statusCode
             if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); haruka.logout(); }
